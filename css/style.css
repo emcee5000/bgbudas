@@ -41,7 +41,7 @@ table {
 #banner h2{
     font-family: 'Satisfy', sans-serif;
     font-size: 45px;
-    color: #FFB03B;
+    color: #03b93e;
 }
 #banner p{
     font-family: 'PT Sans', sans-serif;
@@ -55,7 +55,7 @@ table {
     font-family: 'Satisfy', sans-serif;
     font-size: 65px;
     margin-top: 140px;
-    color: #FFB03B;
+    color: #03b93e;
 }
 .sidenav {
     height: 100%;
@@ -100,7 +100,7 @@ table {
 }
 
 .header-h {
-    color: #FFB03B;
+    color: #03b93e;
     font-size: 46px;
     font-family: 'Satisfy', sans-serif;
     font-weight: 300;
@@ -198,7 +198,7 @@ table {
     height: auto;
 }
 .contacts-btn {
-    background-color:  #FFB03B !important;
+    background-color:  #03b93e !important;
     color: #ffffff !important;
     width: 170px;
     height: 54px;
@@ -253,7 +253,7 @@ table {
 
 .heading{
     font-family: 'Satisfy', sans-serif;
-    color: #FFB03B;
+    color: #03b93e;
     font-size: 24px;
 }
 .marb-35{
@@ -264,7 +264,7 @@ table {
 }
 .details-list ul li i {
     margin-right: 10px;
-    color: #ffb03b;
+    color: #03b93e;
 }
 #about img
 {
@@ -292,13 +292,13 @@ table {
     overflow: auto;
 }
 .content-holder h2 {
-    color: #FFB03B;
+    color: #03b93e;
     font-size: 32px;
     padding-bottom: 15px;
     font-family: 'Satisfy', sans-serif;
 }
 .content-holder address strong {
-    color: #FFB03B;
+    color: #03b93e;
     padding: 10px 0px;
 }
 .details-text p {
@@ -308,7 +308,7 @@ table {
     font-weight: 300;
 }
 .btn-read-more {
-    background: #FFB03B;
+    background: #03b93e;
     padding: 7px 19px;
     font-family: 'Roboto', sans-serif;
     font-size: 12px;
@@ -338,7 +338,7 @@ table {
     font-family: Montserrat,arial;
     text-transform: uppercase;
     letter-spacing: 1px;
-    color: #FFB03B;
+    color: #03b93e;
 }
 .menu-restaurant .menu-line {
     position: absolute;
@@ -366,9 +366,9 @@ table {
 }
 
 #menu-flters ul li a.active, #menu-flters ul li a:hover {
-    background: #FFB03B;
+    background: #03b93e;
     color: #fff;
-    border: 1px solid #FFB03B;
+    border: 1px solid #03b93e;
 }
 #menu-flters ul li {
     display: inline-block;
@@ -411,7 +411,7 @@ table {
     padding-bottom: 20px;
     font-family: 'Satisfy', sans-serif;
     font-size: 44px;
-    color: #FFB03B;
+    color: #03b93e;
 }
 .footer .widget, .footer address {
     color: #999;
@@ -475,4 +475,23 @@ table {
     }
     .sidenav {padding-top: 15px;}
     .sidenav a {font-size: 18px;}
+}
+
+/*Responsive Google Maps*/
+.iframe-container{
+    position: relative;
+    width: 100%;
+    /*padding-bottom: 56.25%;  Ratio 16:9 ( 100%/16*9 = 56.25% ) */
+}
+.iframe-container > *{
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
 }
