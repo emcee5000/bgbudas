@@ -1,9 +1,3 @@
-/*
-    Theme Name: Delicious
-    Theme URL: https://bootstrapmade.com/delicious-free-restaurant-bootstrap-theme/
-    Author: BootstrapMade.com
-    Author URL: https://bootstrapmade.com
-*/
 
 body {
 	font-size: 15px;
@@ -30,7 +24,7 @@ table {
 	border-spacing: 0;
 }
 #banner{
-    background: url(../img/banner-bg.jpg) no-repeat center top;
+    background: url(../img/banner-bg-3.jpg) no-repeat center top;
     background-size: cover;
     min-height: 630px;
 }
@@ -327,14 +321,29 @@ table {
 #Container .mix{
     display: none;
 }
+.menu-section-heading {
+    padding-top: 2em;
+}
 .menu-restaurant{
     width: 50%;
     float: left;
     padding: 15px;
     position: relative;
 }
+.menu-restaurant-1col{
+    width: 100%;
+    padding: 15px;
+    text-align: center;
+}
 .menu-restaurant .menu-title {
     float: left;
+    font-family: Montserrat,arial;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #03b93e;
+}
+
+.menu-restaurant-1col .menu-title {
     font-family: Montserrat,arial;
     text-transform: uppercase;
     letter-spacing: 1px;
