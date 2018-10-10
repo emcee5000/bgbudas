@@ -1,4 +1,12 @@
 
+@font-face {
+    font-family: 'fresh';
+    src: url('../fonts/freschezza_normal-webfont.woff2') format('woff2'),
+         url('../fonts/freschezza_normal-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
 body {
 	font-size: 15px;
     line-height: 1.52;
@@ -7,6 +15,11 @@ body {
 	font-family: 'Open Sans', sans-serif;
     font-weight: 400;
     overflow-x: hidden;
+}
+h1,h2,h3,h4,h5,h6
+{
+    font-family: 'fresh', sans-serif;
+    color: #03b93e;
 }
 ol, ul {
 	list-style: none;
@@ -33,7 +46,7 @@ table {
     min-height: 630px;
 }
 #banner h2{
-    font-family: 'Satisfy', sans-serif;
+    font-family: 'fresh', sans-serif;
     font-size: 45px;
     color: #03b93e;
 }
@@ -46,7 +59,7 @@ table {
     padding: 60px 0px;
 }
 .logo-name{
-    font-family: 'Satisfy', sans-serif;
+    font-family: 'fresh', sans-serif;
     font-size: 65px;
     margin-top: 140px;
     color: #03b93e;
@@ -96,7 +109,7 @@ table {
 .header-h {
     color: #03b93e;
     font-size: 46px;
-    font-family: 'Satisfy', sans-serif;
+    font-family: 'fresh', sans-serif;
     font-weight: 300;
 }
 .header-p {
@@ -162,6 +175,11 @@ table {
     height: 38px;
     line-height: 1.42857;
     padding: 7px 0;
+}
+.vcenter {
+    display: inline-block;
+    vertical-align: middle;
+    float: none;
 }
 .form-control, .form-group .form-control {
     border: 0;
@@ -246,7 +264,7 @@ table {
 
 
 .heading{
-    font-family: 'Satisfy', sans-serif;
+    font-family: 'fresh', sans-serif;
     color: #03b93e;
     font-size: 24px;
 }
@@ -289,7 +307,7 @@ table {
     color: #03b93e;
     font-size: 32px;
     padding-bottom: 15px;
-    font-family: 'Satisfy', sans-serif;
+    font-family: 'fresh', sans-serif;
 }
 .content-holder address strong {
     color: #03b93e;
@@ -371,7 +389,7 @@ table {
     display: block;
     float: left;
     color: #B1B1B1;
-    font-family: Satisfy,'Open Sans',arial;
+    font-family: fresh,'Open Sans',arial;
     font-size: 1.85rem;
 }
 .menu-restaurant span.clearfix {
@@ -423,7 +441,7 @@ table {
 }
 .footer .widget-title{
     padding-bottom: 20px;
-    font-family: 'Satisfy', sans-serif;
+    font-family: 'fresh', sans-serif;
     font-size: 44px;
     color: #03b93e;
 }
